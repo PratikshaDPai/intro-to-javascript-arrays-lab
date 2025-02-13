@@ -229,19 +229,9 @@ Exercise 14: Accessing within nested arrays
 
 Complete Exercise 14 in the space below:
 */
-let num = 0;
-let numIndex = -1;
-for (let arr of numArrays) {
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] == 66) {
-      num = arr[i];
-      numIndex = i;
-    }
-  }
-}
+const num = numArrays[2][1];
 
 console.log("Exercise 14 result:", num);
-//console.log("Index of 66 in nested array is", numIndex);
 
 /*
 Exercise 15: Nested array sum
